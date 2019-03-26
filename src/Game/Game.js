@@ -35,13 +35,13 @@ class Game extends React.Component {
 
     handleWinSituation(winner) {
         if (winner === 'X') {
-            this.setState({
-                xNumOfWins: this.state.xNumOfWins + 1
-            });
+            this.setState(state => ({
+                xNumOfWins: state.xNumOfWins + 1
+            }));
         } else {
-            this.setState({
-                oNumOfWins: this.state.oNumOfWins + 1
-            });
+            this.setState(state => ({
+                oNumOfWins: state.oNumOfWins + 1
+            }));
         }
     }
 
