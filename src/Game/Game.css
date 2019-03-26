@@ -1,0 +1,100 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 10px 0 0px 50px;
+}
+
+.game-title {
+    color: rgb(56, 69, 74);
+    text-align: center;
+    font-family: fantasy;
+}
+
+.game-players-bar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 85%;
+    margin: auto;
+}
+
+.game-players-bar-text {
+    color: rgb(143, 145, 146);
+    font-family: cursive;
+    line-height: 0;
+}
+
+.game-board {
+    margin-top: 25px;
+}
+
+.game-players-bar-image-container {
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(140, 140, 140);
+    border-radius: 20px;
+    width: 50%;
+}
+
+.game-players-bar-image {
+    height: 85%;
+}
+
+.game-players-bar-image-player1 {
+    margin-left: 10px;
+}
+
+.game-players-bar-image-player2 {
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+.game-footer-container {
+    display: flex;
+    height: 50px;
+    margin-top: 25px;
+}
+
+.game-winners-bar-container {
+    display: flex;
+    border: 2px solid rgb(140, 140, 140);
+    border-radius: 20px;
+    width: 65%;
+    font-family: fantasy;
+    color: rgb(143, 145, 146);
+    margin-right: 5%;
+}
+
+.game-winners-bar-player-container { 
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    width: 50%;
+    font-family: cursive;
+}
+
+.game-winners-bar-delimiter {
+    border: 3px solid gray;
+}
+
+.game-winners-bar-player-score {
+    color: black;
+}
+
+.game-reset-button-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid rgb(140, 140, 140);
+    border-radius: 20px;
+    width: 30%;
+    padding: 0 10px 0;
+    font-family: fantasy;
+    color: rgb(79, 91, 95);
+    font-size: 22px;
+}
+
+.game-reset-button-image {
+    height: 70%;
+}

@@ -1,0 +1,12 @@
+.cell-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+    border: 1px solid gray;
+}
+
+.cell-image {
+    width: 75%;
+    height: 75%;
+}

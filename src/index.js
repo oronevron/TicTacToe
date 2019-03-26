@@ -1,4 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Game from "./Game/Game";
 
-ReactDOM.render(<h1>TicTacToe</h1>, document.getElementById("root"));
+ReactDOM.render(<Game />, document.getElementById("root"));
